@@ -5,7 +5,7 @@ class Tags extends Component {
   onClickTagBtn = () => {
     const {tag, clickTagBtn} = this.props
 
-    clickTagBtn(tag.displayText)
+    clickTagBtn(tag.optionId)
   }
 
   render() {
