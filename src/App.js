@@ -114,7 +114,7 @@ class App extends Component {
                 value={activeOption}
               >
                 {tagsList.map(eachItem => (
-                  <option key={eachItem.optionId}>
+                  <option value={eachItem.optionId} key={eachItem.optionId}>
                     {eachItem.displayText}
                   </option>
                 ))}
@@ -135,7 +135,7 @@ class App extends Component {
                 tag={eachItem}
                 key={eachItem.optionId}
                 clickTagBtn={this.clickTagBtn}
-                activeBtn={isFilterActive === eachItem.displayText}
+                activeBtn={isFilterActive === eachItem.optionId}
               />
             ))}
           </ul>
