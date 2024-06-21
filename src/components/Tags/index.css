@@ -1,0 +1,16 @@
+li {
+  margin-right: 10px;
+}
+
+.tag-button {
+  border: #f3aa4e 1px solid;
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.active-button {
+  background-color: #f3aa4e;
+}

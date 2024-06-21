@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  font-family: 'roboto';
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  background-color: #131213;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+}
+.main-task-container {
+  width: 60%;
+}
+
+.heading {
+  color: #f3aa4e;
+  text-align: center;
+  font-weight: 400;
+}
+
+label {
+  color: #f1f5f9;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+input {
+  color: #64748b;
+  height: 40px;
+  outline: none;
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.task-container {
+  background-color: #1a171d;
+  padding: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+select {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  color: #000000;
+  font-weight: 500;
+  font-size: 15px;
+  outline: none;
+  cursor: pointer;
+}
+
+.add-text {
+  color: white;
+  background-color: #f3aa4e;
+  height: 40px;
+  width: 120px;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 500;
+}
+.btn-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container {
+  width: 50%;
+}
+
+option {
+  cursor: pointer;
+}
+
+.tags-list-container {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+h1 {
+  color: white;
+}
